@@ -12,7 +12,8 @@ export default {
     {
       title: 'Description',
       name: 'description',
-      type: 'string',
+      type: 'text',
+      rows: 5,
       validation: Rule => Rule.required(),
     },
     {
